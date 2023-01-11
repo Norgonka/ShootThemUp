@@ -1,0 +1,3 @@
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4\Shipping\ShootThemUp\Definitions.ShootThemUp.h
+D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

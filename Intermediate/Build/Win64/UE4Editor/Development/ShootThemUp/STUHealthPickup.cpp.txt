@@ -1,0 +1,10 @@
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\Pickups/STUHealthPickup.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\Pickups/STUBasePickup.h
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUBasePickup.generated.h
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUHealthPickup.generated.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\STUUtils.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\Components/STUHealthComponent.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\STUCoreTypes.h
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUCoreTypes.generated.h
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUHealthComponent.generated.h
