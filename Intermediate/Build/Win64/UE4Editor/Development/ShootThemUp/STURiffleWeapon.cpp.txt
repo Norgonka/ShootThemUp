@@ -6,3 +6,5 @@ D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThem
 D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUBaseWeapon.generated.h
 D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STURiffleWeapon.generated.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\UE_4.27\Projects\ShootThemUp\Source\ShootThemUp\Public\Weapon/Components/STUWeaponFXComponent.h
+D:\UE_4.27\Projects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUWeaponFXComponent.generated.h

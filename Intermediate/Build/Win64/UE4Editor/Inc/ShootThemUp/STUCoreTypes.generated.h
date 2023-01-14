@@ -13,6 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTTHEMUP_STUCoreTypes_generated_h
 
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_STUCoreTypes_h_73_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FImpactData_Statics; \
+	SHOOTTHEMUP_API static class UScriptStruct* StaticStruct();
+
+
+template<> SHOOTTHEMUP_API UScriptStruct* StaticStruct<struct FImpactData>();
+
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_STUCoreTypes_h_55_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDecalData_Statics; \
+	SHOOTTHEMUP_API static class UScriptStruct* StaticStruct();
+
+
+template<> SHOOTTHEMUP_API UScriptStruct* StaticStruct<struct FDecalData>();
+
 #define Projects_ShootThemUp_Source_ShootThemUp_Public_STUCoreTypes_h_39_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FWeaponUIData_Statics; \
 	SHOOTTHEMUP_API static class UScriptStruct* StaticStruct();
