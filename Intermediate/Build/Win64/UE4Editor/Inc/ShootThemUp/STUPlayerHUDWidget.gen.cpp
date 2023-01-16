@@ -57,6 +57,11 @@ void EmptyLinkFunctionForGeneratedCodeSTUPlayerHUDWidget() {}
 		*(float*)Z_Param__Result=P_THIS->GetHealthPercent();
 		P_NATIVE_END;
 	}
+	static FName NAME_USTUPlayerHUDWidget_OnTakeDamage = FName(TEXT("OnTakeDamage"));
+	void USTUPlayerHUDWidget::OnTakeDamage()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_USTUPlayerHUDWidget_OnTakeDamage),NULL);
+	}
 	void USTUPlayerHUDWidget::StaticRegisterNativesUSTUPlayerHUDWidget()
 	{
 		UClass* Class = USTUPlayerHUDWidget::StaticClass();
@@ -262,6 +267,29 @@ void EmptyLinkFunctionForGeneratedCodeSTUPlayerHUDWidget() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics::Function_MetaDataParams[] = {
+		{ "Category", "UI" },
+		{ "ModuleRelativePath", "Public/UI/STUPlayerHUDWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USTUPlayerHUDWidget, nullptr, "OnTakeDamage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_USTUPlayerHUDWidget_NoRegister()
 	{
 		return USTUPlayerHUDWidget::StaticClass();
@@ -286,6 +314,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUPlayerHUDWidget() {}
 		{ &Z_Construct_UFunction_USTUPlayerHUDWidget_GetHealthPercent, "GetHealthPercent" }, // 3046009845
 		{ &Z_Construct_UFunction_USTUPlayerHUDWidget_IsPlayerAlive, "IsPlayerAlive" }, // 2636334039
 		{ &Z_Construct_UFunction_USTUPlayerHUDWidget_IsPlayerSpectating, "IsPlayerSpectating" }, // 1376613602
+		{ &Z_Construct_UFunction_USTUPlayerHUDWidget_OnTakeDamage, "OnTakeDamage" }, // 3292877930
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USTUPlayerHUDWidget_Statics::Class_MetaDataParams[] = {
@@ -320,7 +349,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUPlayerHUDWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USTUPlayerHUDWidget, 625084163);
+	IMPLEMENT_CLASS(USTUPlayerHUDWidget, 229513858);
 	template<> SHOOTTHEMUP_API UClass* StaticClass<USTUPlayerHUDWidget>()
 	{
 		return USTUPlayerHUDWidget::StaticClass();

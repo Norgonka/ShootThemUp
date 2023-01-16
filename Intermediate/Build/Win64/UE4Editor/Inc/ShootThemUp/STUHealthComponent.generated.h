@@ -16,22 +16,22 @@ class AController;
 #endif
 #define SHOOTTHEMUP_STUHealthComponent_generated_h
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_SPARSE_DATA
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_RPC_WRAPPERS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_SPARSE_DATA
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnTakeAnyDamageHandle); \
 	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnTakeAnyDamageHandle); \
 	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSTUHealthComponent(); \
 	friend struct Z_Construct_UClass_USTUHealthComponent_Statics; \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(USTUHealthComponent)
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_INCLASS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUSTUHealthComponent(); \
 	friend struct Z_Construct_UClass_USTUHealthComponent_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(USTUHealthComponent)
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_STANDARD_CONSTRUCTORS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USTUHealthComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USTUHealthComponent) \
@@ -62,7 +62,7 @@ private: \
 public:
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API USTUHealthComponent(USTUHealthComponent&&); \
@@ -73,35 +73,36 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USTUHealthComponent)
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(USTUHealthComponent, MaxHealth); } \
 	FORCEINLINE static uint32 __PPO__AutoHeal() { return STRUCT_OFFSET(USTUHealthComponent, AutoHeal); } \
 	FORCEINLINE static uint32 __PPO__HealUpdateTime() { return STRUCT_OFFSET(USTUHealthComponent, HealUpdateTime); } \
 	FORCEINLINE static uint32 __PPO__HealDelay() { return STRUCT_OFFSET(USTUHealthComponent, HealDelay); } \
-	FORCEINLINE static uint32 __PPO__HealModifier() { return STRUCT_OFFSET(USTUHealthComponent, HealModifier); }
+	FORCEINLINE static uint32 __PPO__HealModifier() { return STRUCT_OFFSET(USTUHealthComponent, HealModifier); } \
+	FORCEINLINE static uint32 __PPO__CameraShake() { return STRUCT_OFFSET(USTUHealthComponent, CameraShake); }
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_10_PROLOG
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_GENERATED_BODY_LEGACY \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_12_PROLOG
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_SPARSE_DATA \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_RPC_WRAPPERS \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_INCLASS \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_STANDARD_CONSTRUCTORS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_SPARSE_DATA \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_RPC_WRAPPERS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_INCLASS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_GENERATED_BODY \
+#define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_SPARSE_DATA \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_INCLASS_NO_PURE_DECLS \
-	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_13_ENHANCED_CONSTRUCTORS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_SPARSE_DATA \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_INCLASS_NO_PURE_DECLS \
+	Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUHealthComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
