@@ -59,6 +59,10 @@ public: \
 
 
 #define Projects_ShootThemUp_Source_ShootThemUp_Public_Components_STUWeaponComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__WeaponData() { return STRUCT_OFFSET(USTUWeaponComponent, WeaponData); } \
+	FORCEINLINE static uint32 __PPO__WeaponEquipSockettName() { return STRUCT_OFFSET(USTUWeaponComponent, WeaponEquipSockettName); } \
+	FORCEINLINE static uint32 __PPO__WeaponArmorySocketName() { return STRUCT_OFFSET(USTUWeaponComponent, WeaponArmorySocketName); } \
+	FORCEINLINE static uint32 __PPO__EquipAnimMontage() { return STRUCT_OFFSET(USTUWeaponComponent, EquipAnimMontage); } \
 	FORCEINLINE static uint32 __PPO__CurrentWeapon() { return STRUCT_OFFSET(USTUWeaponComponent, CurrentWeapon); } \
 	FORCEINLINE static uint32 __PPO__Weapons() { return STRUCT_OFFSET(USTUWeaponComponent, Weapons); } \
 	FORCEINLINE static uint32 __PPO__CurrentReloadAnimMontage() { return STRUCT_OFFSET(USTUWeaponComponent, CurrentReloadAnimMontage); }

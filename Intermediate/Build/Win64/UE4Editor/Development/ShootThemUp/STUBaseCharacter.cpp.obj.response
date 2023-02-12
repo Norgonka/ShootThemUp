@@ -242,6 +242,9 @@
 /I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\Animations
 /I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\Pickups
 /I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\Weapon\Components
+/I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\AI
+/I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\AI\Tasks
+/I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public\AI\Services
 /I ..\..\Projects\ShootThemUp\Source\ShootThemUp\Public
 /I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara
 /I ..\Plugins\FX\Niagara\Source
